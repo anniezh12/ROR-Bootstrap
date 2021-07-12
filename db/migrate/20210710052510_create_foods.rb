@@ -4,7 +4,7 @@ class CreateFoods < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :ingredients
       t.integer :cal
-      t.int :cook_time
+      t.integer :cook_time
 
       t.timestamps
     end
