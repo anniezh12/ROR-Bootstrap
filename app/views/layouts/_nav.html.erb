@@ -5,13 +5,18 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
         <li>
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        
-        <li class="nav-item">
-        <%= link_to "Sign Up", new_user_registration_path %>
+        <li>
+          <%= link_to "About Us", welcome_aboutus_path %>
+        </li>
+        <li>
+          <%= link_to "Contact Us", welcome_contactus_path %>
+        </li>
+        <li>  
+          <%= link_to "Sign Up", new_user_registration_path %>
         </li>
         <li>
          <%= link_to "Sign In", new_user_session_path %>
